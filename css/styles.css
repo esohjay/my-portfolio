@@ -1222,7 +1222,7 @@ Products Page
 }
 @media screen and (min-width: 768px) {
   .project-page-center {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   }
 }
 
