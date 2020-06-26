@@ -1220,6 +1220,12 @@ Products Page
   scale: 1;
   box-shadow: var(--dark-shadow);
 }
+@media screen and (min-width: 768px) {
+  .project-page-center {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
 @media screen and (min-width: 1000px) {
   .project-page-center {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
